@@ -1,0 +1,21 @@
+atribuição por valor = 
+$a = 10;
+$b = $a;
+
+$b recebeu o valor de $a, porém se eu fizer uma alteração em $a:
+$a++, $a ficará com valor 11, porém B irá continuar com 10 por que eles ocupam um espaço diferente na memória.
+
+atribuição por referência =
+
+$a = 'Ana';
+$b =  &$a;
+
+para atribuir por referencia, basta colocar um "&" antes da atribuição, como no exemplo acima. 
+$b = 'Daniel'; 
+
+$a e $b vão ser impactados mudando para 'Daniel', porque ambos ocupam o mesmo espaço de memória. 
+
+Essa é a principal diferença de atribuição por valor e atribuição por referência.
+
+A atribuição por valor é muito usada para a programação funcional e a atribuição por referência é muito mais usada na programação orientada
+a objeto. 
