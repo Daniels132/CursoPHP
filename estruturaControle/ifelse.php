@@ -21,11 +21,3 @@ else if(true){
 else{
     echo "último passo";
 }
-
-if(){
-    if(){
-        if(){
-            
-        }
-    }
-}
